@@ -81,16 +81,32 @@ color: #434455;}
 .contacts-link:focus {color: #404bbf
 }
 /*efective*/
-.effective {background-color:  #2e2f42;}
- .effective-text{font-weight: 700;
+.main-container {
+    display: flex;
+    align-items: center;
+}
+.effective {
+    display: block;
+
+width: 1440px;
+height: 600px;
+    background-color:  #2e2f42;}
+ .effective-text{ display: flex;
+    padding: 188px 292px;
+    font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;}  
 .button {
+    margin-left: auto;
+gap: 10px;
+border-radius: 4px;
+width: 169px;
+height: 56px;
 background-color: #4d5ae5;
-font-weight: 500;
+font-weight: 500px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
@@ -101,7 +117,14 @@ color: #fff;
 .button:focus {background-color: #404bbf;
  cursor: pointer;
 }
-
+.fuature {
+    display: flex;
+}
+.feature-list {display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 120px
+    ;}
 .feature-title {font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -115,7 +138,19 @@ letter-spacing: 0.02em;
 color: #434455 ;
 }
 .team{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-direction: column;
     background: #f4f4fd;
+}
+.team-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 232px 120px;
+   
 }
 .team-title {font-weight: 700;
 font-size: 36px;
@@ -124,9 +159,14 @@ letter-spacing: 0.02em;
 text-align: center;
  text-transform: capitalize;
 color: #2e2f42;
+padding: 120px 72px;
 }
 .team-item {
-     background-color: #FFFFFF 
+    padding: 0 0 32px 0;
+    border-radius: 0 0 4px 4px;
+     background-color: #FFFFFF ;
+     width: calc((100%-72px)/4);
+     gap: 24px;
 }
 .team-hero {
     font-weight: 500;
