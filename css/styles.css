@@ -124,6 +124,7 @@ margin-bottom: 178px;
 margin-left: 637px;
 margin-right: 635px;
 cursor: pointer; 
+min-width: 169px;
 }
 .button:hover,
 .button:focus {background-color: #404bbf;
@@ -162,7 +163,7 @@ color: #434455 ;
 /*team*/
 .team{
     display: flex;
-   
+   padding: 120px 0;
     justify-content: center;
     flex-direction: column;
     background: #f4f4fd;
@@ -181,15 +182,23 @@ text-align: center;
  text-transform: capitalize;
 color: #2e2f42;
 padding: 120px 72px;
+ margin-bottom: 72px;
 }
 .team-item {
+     border-radius: 0px 0px 4px 4px; 
     padding: 0 0 32px 0;
     border-radius: 0 0 4px 4px;
      background-color: #FFFFFF ;
      width: calc((100%-72px)/4);
      gap: 24px;
 }
+.name {
+     padding: 32px 0;
+
+}
 .team-hero {
+    text-align: center;
+    margin-bottom: 8px;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -197,6 +206,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .team-text {
+     text-align: center; 
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
