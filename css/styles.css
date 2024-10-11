@@ -84,6 +84,7 @@ color: #434455;}
 .main-container {
     display: flex;
     align-items: center;
+
 }
 .effective {
     display: block;
@@ -188,10 +189,11 @@ color:  #434455;
 .portfolio {
     display: flex;
     align-items: center;
-    margin: 120px 120px;
+    padding: 120px 120px;
     flex-direction: column;
 }
 .portfolio-headline {
+     margin-bottom: 72px; 
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -199,20 +201,26 @@ letter-spacing: 0.02em;
 text-align: center;
  text-transform: capitalize;
 color:  #2e2f42;
-padding: 100px 0;
 }
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
+    row-gap: 48px; 
 
 }
 .portfolio-item {
-    width: calc((100%-48px)/6);
-   border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-border-right: 1px solid #e7e9fc;
+    width: calc((100%-48px)/3);
+
+}
+.portfolio-deskript {
+ padding: 32px 16px;
+  border: 1px solid #e7e9fc; 
+  border-top: none;
+ margin-bottom: 8px ;
+ 
+
 }
 .portfolio-title {
     font-weight: 500;
@@ -234,14 +242,13 @@ color: #434455 ;
     min-height: 30vh;
 } 
 .footer {
+    padding: 100px 0;
     background-color:  #2e2f42;
 }
 .logo{
      font-family: "Raleway", sans-serif;
-     display: flex;
 align-items: center;
 justify-content: flex-start;
-padding-top: 100px;
 }
 .logo-footer { line-height: 1.17 
     font-weight: 700;
@@ -250,6 +257,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+display: inline-block;
+margin-bottom: 16px;
+
 }
 .logo-footer  .logo-part{
     color: #f4f4fd;
