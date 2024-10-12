@@ -139,7 +139,7 @@ min-width: 169px;
 .visually-hidden {
     position: absolute;
     overflow: hidden;
-    clip: rect(0 0 0 0);
+    clip: rect(0 0 0 0);git 
 }
 .feature-list {
     display: flex;
@@ -279,7 +279,7 @@ color: #434455 ;
     background-color:  #2e2f42;
 } 
 
-.logo{
+.logo{ display: inline-block;
      font-family: "Raleway", sans-serif;
 align-items: center;
 justify-content: flex-start;
