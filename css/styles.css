@@ -133,7 +133,7 @@ min-width: 169px;
 /*section2*/
 .fuature {
     display: flex;
-     padding: 120px 0;
+     padding: 120px 0 120px;
 }
 .visually-hidden {
     position: absolute;
@@ -145,6 +145,7 @@ min-width: 169px;
     white-space: nowrap;
     overflow: hidden;
     clip: rect(0 0 0 0);
+    clip-path: inset(100%);
 }
 .feature-list {
     display: flex;
@@ -153,7 +154,7 @@ min-width: 169px;
     padding: 120px;
     }
     .feature-item {
-        width: calc((100%-72px)/4);
+    width: calc((100%-72px)/4);
     }
 .feature-title {font-weight: 500;
 font-size: 20px;
@@ -283,7 +284,7 @@ color: #434455 ;
     padding: 100px 0;
     background-color:  #2e2f42;
 } 
-.logo .logo-footer{display: inline-block;}
+a {display: inline-block;}
 
 .logo{
      font-family: "Raleway", sans-serif;
