@@ -250,7 +250,8 @@ color:  #2e2f42;
 
 }
 .portfolio-item {
-    width: calc((100%-48px)/3);
+    width: calc((100%- 48px)/3);
+
 }
 .portfolio-deskript {
  padding: 32px 16px;
@@ -276,22 +277,20 @@ letter-spacing: 0.02em;
 color: #434455 ;
 }
 .footer-container { 
-    display: flex;
     flex-direction: column;
     min-height: 30vh;
 } 
 .footer {
     padding: 100px 0;
     background-color:  #2e2f42;
-} 
-a {display: inline-block;}
-
+}
 .logo{
      font-family: "Raleway", sans-serif;
 align-items: center;
 justify-content: flex-start;
 }
 .logo-footer { 
+    display: inline-block;
     line-height: 1.17 ;
     font-weight: 700;
 font-size: 18px;
