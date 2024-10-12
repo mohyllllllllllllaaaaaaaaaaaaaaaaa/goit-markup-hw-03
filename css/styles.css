@@ -136,6 +136,16 @@ min-width: 169px;
      padding: 120px 0;
 
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
 .feature-list {
     display: flex;
     align-items: center;
@@ -143,7 +153,7 @@ min-width: 169px;
     padding: 120px;
     }
     .feature-item {
-        width: calc((100% - 72px) / 4); 
+        width: calc((100%-72px)/4); 
 
     }
 .feature-title {font-weight: 500;
@@ -160,7 +170,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455 ;
 }
-/*team*/
+/* section3  team*/
 .team{
     display: flex;
    padding: 120px 0;
@@ -194,7 +204,6 @@ padding: 120px 72px;
 }
 .name {
      padding: 32px 0;
-
 }
 .team-hero {
     text-align: center;
@@ -272,10 +281,8 @@ color: #434455 ;
 .footer {
     padding: 100px 0;
     background-color:  #2e2f42;
-}
-.logo  .logo-footer{
-    display: inline-block; 
-}
+} 
+
 .logo{
      font-family: "Raleway", sans-serif;
 align-items: center;
@@ -288,7 +295,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
- 
+ display: inline-block;
 margin-bottom: 16px;
 
 }
