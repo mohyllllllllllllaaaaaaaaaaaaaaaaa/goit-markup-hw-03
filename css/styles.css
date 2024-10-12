@@ -278,8 +278,9 @@ color: #434455 ;
     padding: 100px 0;
     background-color:  #2e2f42;
 } 
+.logo .logo-footer{display: inline-block;}
 
-.logo{ display: inline-block;
+.logo{
      font-family: "Raleway", sans-serif;
 align-items: center;
 justify-content: flex-start;
