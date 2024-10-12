@@ -222,11 +222,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:  #434455;
 }
-/*portfolio*/
+/* section4  portfolio*/
 .portfolio {
     display: flex;
     align-items: center;
-    padding: 120px 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     flex-direction: column;
 }
 .portfolio-headline {
@@ -242,6 +243,7 @@ color:  #2e2f42;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
     justify-content: center;
     gap: 24px;
     row-gap: 48px; 
