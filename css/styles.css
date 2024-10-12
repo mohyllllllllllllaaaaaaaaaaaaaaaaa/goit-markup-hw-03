@@ -150,7 +150,6 @@ padding: 120px 0;
     display: flex;
     align-items: center;
     gap: 24px;
-    padding: 120px;
     }
     .feature-list {
     width: calc((100% - 72px) /4);
