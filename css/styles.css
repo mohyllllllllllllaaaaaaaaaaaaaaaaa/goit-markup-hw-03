@@ -138,11 +138,6 @@ min-width: 169px;
 }
 .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
     overflow: hidden;
     clip: rect(0 0 0 0);
 }
@@ -153,7 +148,7 @@ min-width: 169px;
     padding: 120px;
     }
     .feature-item {
-        width: calc((100%-72px)/4);
+        width: calc((100% - 72px)/4);
     }
 .feature-title {font-weight: 500;
 font-size: 20px;
