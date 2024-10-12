@@ -95,16 +95,13 @@ color: #434455;}
  .effective-text{
      max-width: 496px;
     display: flex;
-    padding-top: 188px;
-    padding-bottom: 0;
-    padding-left: 443px;
-    padding-right: 501px;
     font-weight: 700;   
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: #fff;}  
+color: #fff;
+margin: 0 auto 48px auto;}  
  .button {
     display: block;
 gap: 10px;
@@ -119,10 +116,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
-margin-top: 0;
-margin-bottom: 178px;
-margin-left: 637px;
-margin-right: 635px;
+margin: 0 auto;
 cursor: pointer; 
 min-width: 169px;
 }
@@ -189,12 +183,12 @@ letter-spacing: 0.02em;
 text-align: center;
  text-transform: capitalize;
 color: #2e2f42;
-padding: 120px 72px;
+
  margin-bottom: 72px;
 }
 .team-item {
      border-radius: 0px 0px 4px 4px; 
-    padding: 0 0 32px 0;
+    
     border-radius: 0 0 4px 4px;
      background-color: #FFFFFF ;
      width: calc((100%-72px)/4);
@@ -307,8 +301,6 @@ margin-bottom: 16px;
 align-content: center;
 flex-wrap: wrap;
 max-width: 264px;
-max-height: 112px;
-padding-top: 10px;
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
